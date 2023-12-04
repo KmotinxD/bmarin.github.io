@@ -1,0 +1,303 @@
+/* Estilos para el encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+nav a img{
+    border-radius: 20px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+/* Estilos personalizados para el menú desplegable */
+
+.dropdown-menu{
+    background-color: #fcecdd;
+    border: #000000;
+}  
+
+.dropdown-toggle::after {
+    display: none;
+}
+  .dropdown-menu .dropdown-item {
+    color: #49be49;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+   
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #49be49;
+    color: white;
+  }
+
+ .dropdown-menu li{
+    display:list-item;
+    margin-right: 10px;
+ }
+
+/* Estilos para el breadcrumb */
+
+#bc{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+#bc a{
+    padding: 0px;
+    margin:0px;
+    font-size: 16px;
+    color: #007bff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bc a:hover {
+    background-color: #94fceb00;
+    color: #2d56dbd3;
+}
+
+#bc li{
+    display:flex;
+    margin-right: 0px;
+}
+
+/* Estilos para las secciones */  
+
+section {
+    padding: 50px;
+}
+
+
+
+
+#c_carrito{
+    padding-top: 75px;
+
+    padding-bottom: 200px;
+}
+
+#c_carrito table{
+    text-align: center;
+    width: 850px;
+}   
+
+
+#c_carrito h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#fila_carrito{
+    padding-left: 0px;
+}
+
+#c_total{
+    padding-left: 180px;
+    padding-top: 70px;
+    padding-right: 20px;
+
+}
+
+#total{
+    background-color: #49be49;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+#total h5{
+    color: #fffffff3;
+    font-weight: 700;
+}
+
+#total p{
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+#total hr{
+    border-width: 4px;
+    margin-right: 20px;
+    margin-left: -10px;
+    border-color: #000000;
+}
+
+#total a{
+    margin-top: 20px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #49be49;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 12px;
+
+}
+
+#total a:hover{
+    margin-top: 20px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+
+#items td{
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#cantidad p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cantidad .btn{
+    background-color: #88ec88;
+    border: 0px;
+    width: 40px;
+}
+
+#cantidad span{
+    font-weight: 700;
+}
+
+#cantidad .badge{
+    color: #fcecdd;
+}
+
+#b_atras{
+    margin-top: 20px;
+    background-color: #49be49;
+    color: #ffffff;
+    width: 130px;
+    font-weight: 500;
+    
+ 
+}
+
+#b_atras:hover{
+    color: white;
+    background-color: #49be49;
+    border-color: #49be49;
+}
+
+
+#contacto {
+    
+    background-color: #000000;
+
+  }
+  
+#contacto h2 {
+    font-size: 35px;
+    color: #49be49;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    
+}
+
+#contacto li {
+    margin-bottom: 27px;
+}
+
+ #contacto ul {
+    color: #fafafad5;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.icon-container {
+    display: flex;
+    font-size: 30px;
+    margin-top: 95px;
+  }
+  
+  .icon-container i {
+    margin-right: 120px; /* Espacio entre los iconos */
+    color: #fafafad5;
+  }
+
+  .icon-container i:hover {
+    color: #49be49;
+  }
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    footer p {
+    margin: 0;
+    font-size: 16px;
+    }
+

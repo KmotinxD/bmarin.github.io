@@ -1,0 +1,277 @@
+/* Estilos para el encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+nav a img{
+    border-radius: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+/* Estilos personalizados para el menú desplegable */
+
+.dropdown-menu{
+    background-color: #fcecdd;
+    border: #000000;
+}  
+
+.dropdown-toggle::after {
+    display: none;
+}
+  .dropdown-menu .dropdown-item {
+    color: #49be49;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+   
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #49be49;
+    color: white;
+  }
+
+ .dropdown-menu li{
+    display:list-item;
+    margin-right: 10px;
+ }
+
+/* Estilos para el breadcrumb */
+
+#bc{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+#bc a{
+    padding: 0px;
+    margin:0px;
+    font-size: 16px;
+    color: #007bff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bc a:hover {
+    background-color: #94fceb00;
+    color: #2d56dbd3;
+}
+
+#bc li{
+    display:flex;
+    margin-right: 0px;
+}
+
+/* Estilos para las secciones */  
+
+section {
+    padding: 50px;
+}
+
+#ver_producto{
+    padding-bottom: 200px;
+
+}
+
+#img_p{
+    border: 0px;
+}
+
+#p_imagen .card-img {
+    border-radius: 10px;
+    border: 2px solid #dddddd; 
+}
+
+
+#p_descripcion{
+    text-align: justify;
+}
+
+
+#card_p{
+    border-radius: 10px;
+    border: 2px solid #dddddd; 
+}
+
+#p_descripcion i{
+    font-size: 20px;
+    color: #49be49;
+}
+#p_descripcion span{
+    font-size: 18px;
+
+}
+
+#p_descripcion h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#p_descripcion h3{
+    font-size: 25px;
+
+}
+
+#p_descripcion h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+#cantidad p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cantidad .btn{
+    background-color: #49be49;
+    border: 0px;
+    width: 40px;
+}
+
+#cantidad span{
+    font-weight: 700;
+}
+
+#cantidad .badge{
+    color: #fcecdd;
+}
+
+
+#carrito a{
+    padding-top: 10px;
+    width: 100%;
+    background-color: #49be49;
+    color: white;
+    height: 50px;
+    border: 0px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#b_atras{
+    margin-top: 20px;
+    background-color: #49be49;
+    color: #ffffff;
+    width: 130px;
+    font-weight: 500;
+ 
+}
+
+#b_atras:hover{
+    color: white;
+    background-color: #49be49;
+    border-color: #3c973c;
+}
+
+
+
+#contacto {
+    
+    background-color: #474747;
+
+  }
+  
+#contacto h2 {
+    font-size: 35px;
+    color: #49be49;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    
+}
+
+#contacto li {
+    margin-bottom: 27px;
+}
+
+ #contacto ul {
+    color: #fafafad5;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.icon-container {
+    display: flex;
+    font-size: 30px;
+    margin-top: 95px;
+  }
+  
+  .icon-container i {
+    margin-right: 120px; /* Espacio entre los iconos */
+    color: #fafafad5;
+  }
+
+  .icon-container i:hover {
+    color: #49be49;
+  }
+
+/* Estilos para el pie de página */
+footer {
+background-color: #000000;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+footer p {
+margin: 0;
+font-size: 16px;
+}
+
+
+

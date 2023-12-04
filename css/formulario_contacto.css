@@ -1,0 +1,260 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #ffffff;  
+}
+
+nav a img{
+    border-radius: 20px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    
+
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+/* Estilos personalizados para el menú desplegable */
+
+.dropdown-menu{
+    background-color: #fcecdd;
+    border: #000000;
+}  
+
+.dropdown-toggle::after {
+    display: none;
+}
+  .dropdown-menu .dropdown-item {
+    color: #49be49;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+   
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #49be49;
+    color: white;
+  }
+
+ .dropdown-menu li{
+    display:list-item;
+    margin-right: 10px;
+ }
+
+/* Estilos para el breadcrumb */
+
+#bc{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+#bc a{
+    padding: 0px;
+    margin:0px;
+    font-size: 16px;
+    color: #007bff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bc a:hover {
+    background-color: #94fceb00;
+    color: #2d56dbd3;
+}
+
+#bc li{
+    display:flex;
+    margin-right: 0px;
+   
+}
+
+/* Estilos para las secciones */  
+
+section {
+    padding: 50px;
+}
+
+.ftco-section{
+    margin-bottom: 200px;
+}
+
+#icon span{
+    color: #000000;
+    font-size: 40px;
+}
+
+#icon p{
+    font-weight: 700;
+    color:#000000da;
+}
+
+  
+#fcontacto{
+    background-color: #49be49;
+    border-radius: 40px;
+    
+}
+  
+  
+.invalid-feedback{
+    color:#2c1c13;
+    font-weight: 500;
+}
+
+#fcontacto label{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#fcontacto ::placeholder{
+    color: #979797;
+    font-weight: 400;
+}
+.form-control {
+    border-radius: 12px;
+    height: 47px;
+  }
+
+#validationCustom05 {
+    height: 200px; 
+    width: 100%; 
+  }
+
+
+.boton{
+    margin-top: 60px;
+    background-color: #49be49;
+    color: #ffffff;
+    width: 100px;
+    font-weight: 500;
+ 
+}
+
+.boton:hover{
+    color: white;
+    background-color: #49be49;
+    border-color: #49be49;
+}
+
+.boton_enviar{
+    margin-top: 40px;
+    background-color: #000000;
+    border: #000000;
+    color: #ffffff;
+    width: 90px;
+ 
+}
+
+.boton_enviar:hover{
+    font-weight: 600;
+    color: #49be49;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#contacto {
+    
+    background-color: #474747;
+
+  }
+  
+#contacto h2 {
+    font-size: 35px;
+    color: #49be49;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    
+}
+
+#contacto li {
+    margin-bottom: 27px;
+}
+
+ #contacto ul {
+    color: #fafafad5;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.icon-container {
+    display: flex;
+    font-size: 30px;
+    margin-top: 95px;
+  }
+  
+  .icon-container i {
+    margin-right: 120px; /* Espacio entre los iconos */
+    color: #fafafad5;
+  }
+
+  .icon-container i:hover {
+    color: #49be49;
+  }
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+footer p {
+margin: 0;
+font-size: 16px;
+}
+
