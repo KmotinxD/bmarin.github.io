@@ -1,0 +1,314 @@
+/* Estilos para el encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000; /* Cambié el color a negro */
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffffff;
+    color: #49be49; /* Cambié el color a blanco al hacer hover */
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    background-color: #49be49; /* Cambié el color de fondo del navbar */
+}
+
+nav a img{
+    border-radius: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    color: #000000; /* Cambié el color a negro */
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #49be49;
+}
+
+/* Resto de tu CSS */
+
+/* Estilos para el banner */
+#banner {
+    background-image: url("https://www.mascotas.com/cms/revista/Revista_5fb477a1e6e3b_17112020.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 120px;
+}
+
+#banner h2 {
+    font-size: 55px;
+    font-weight: 800;
+    color: #000000; /* Negro */
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner p {
+    font-size: 50px;
+    font-weight: 800;
+    color: #49be49;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px;
+}
+
+#productos {
+    
+    margin-bottom: 0px;
+    background-color: #ffebdac0;
+    
+}
+
+#productos h2 {
+
+    margin-bottom: 80px;
+    padding: 18px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 46px;
+    text-align: center;
+    width: 100%;
+      }
+
+
+.product {
+    display: inline-block;
+    width: 320px;
+    height: 540px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 27px;
+    vertical-align: top;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.product h3 {
+    font-size: 23px;
+    color: #333;
+    margin: 0;
+    font-weight: 800;
+}
+.product p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.buy-btn {
+    display: block;
+    background-color: #49be49;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    margin-top: 40px;
+    
+}
+
+.buy-btn:hover {
+    color: white;
+    background-color: #6148349c;
+    background-color: #49be49;
+    border-color: #277e27;
+}
+
+#ver_mas{
+    margin-bottom: 50px;
+}
+
+#ver_mas .boton{
+    font-weight: 600;
+    background-color: #49be49;
+    color: #ffffff;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#ver_mas .boton:hover{
+    color: white;
+    background-color: #49be49;
+    border-color: #277e27;
+}
+
+
+
+
+
+
+#blog {
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 160px;
+    padding: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+#blog .card{
+    border: 2px solid #dddddd; 
+    border-radius: 10px;
+    border-width: 5px;
+ 
+}
+
+#blog h2{
+    margin-bottom: 80px;
+    margin-top: -70px;
+    padding: 18px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 46px;
+    text-align: center;
+    width: 100%;
+}
+
+#blog h5{
+    text-align: justify;
+}
+
+#blog p{
+    text-align: justify;
+}
+
+#blog .btn{
+    background-color: #49be49;
+    color: #ffffff;
+}
+
+#ver_mas_blog .boton{
+    font-weight: 600;
+    margin-top: 30px;
+    background-color: #49be49;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+#ver_mas_blog .boton:hover{
+    color: white;
+    background-color: #49be49;
+    border-color: #49be49;
+}
+
+
+#contacto {
+    
+    background-color: #000000;
+
+  }
+  
+#contacto h2 {
+    font-size: 35px;
+    color: #49be49;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 800;
+    
+}
+
+#contacto li {
+    margin-bottom: 27px;
+}
+
+ #contacto ul {
+    color: #fafafad5;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.icon-container {
+    display: flex;
+    font-size: 30px;
+    margin-top: 95px;
+  }
+  
+  .icon-container i {
+    margin-right: 120px; /* Espacio entre los iconos */
+    color: #fafafad5;
+  }
+
+  .icon-container i:hover {
+    color: #49be49;
+  }
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    footer p {
+    margin: 0;
+    font-size: 16px;
+    }
+
+/* Estilos para iconos en la sección de contacto */
+.icon-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
