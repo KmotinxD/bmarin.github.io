@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ver_producto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <title>Eco Pets</title>
+
+</head>
+<body>
+<div class="container-fluid">
+
+      <!-- Header Navbar-->
+      <nav class="navbar navbar-expand-lg" style="background-color: #49be49;">
+        <a class="navbar-brand" href="diseño.html">
+            <img src="img/logo.png" alt="Logo de la empresa" style="height: 80px;"> Eco Pets
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="align-self-center collapse navbar-collapse d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto ml-auto text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="snosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+        <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
+            <i class="bi bi-bag-dash-fill"></i>
+        </a>
+       
+    </nav>
+
+
+    <header></header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" id="bc">
+        <li class="breadcrumb-item"><a href="diseño.html">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="catalogo.html">Productos</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Ver producto</li>
+        </ol>
+    </nav>
+
+    <!-- Info ver producto -->
+    <section class="bg-light" id="ver_producto">
+        <div class="container pb-5">
+            <div class="row">
+
+                <div class="col-lg-5 mt-5" id="p_imagen">
+
+                    <div class="card mb-3" id="img_p">
+                        <img class="card-img img-fluid" src="img/repelente.png"Card image cap id="product-detail">
+                    </div>
+
+                    <div class="row">
+
+                        <!--Start Carousel-->
+                            <div class="carousel-inner product-links-wap" role="listbox">
+
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="card-img img-fluid" src="img/repelente.png" alt="Product Image 1">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="card-img img-fluid" src="img/repelente.png" alt="Product Image 2">
+                                            </a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="#">
+                                                <img class="card-img img-fluid" src="img/repelente.png" alt="Product Image 3">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                             </div>
+                        <!--End Carousel-->
+
+                    </div>
+                </div>
+                
+
+                <div class="col-lg-7 mt-5" id="p_descripcion">
+                    <div class="card" id="card_p">
+                        <div class="card-body">
+                            <h1>Repelente orgánico</h1>
+                            <h3 class="h3 py-2">S/ 19.99</h3>
+                            <p class="py-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <span class="list-inline-item text-dark">4.8  | 12 Comentarios</span>
+                            </p>
+
+                            <h6>Descripción:</h6>
+                            <p>Protege a tu fiel amigo peludo de los insectos con nuestro repelente orgánico para mascotas. Formulado con ingredientes naturales
+                                 y sin productos químicos dañinos, este repelente brinda una barrera segura y duradera contra mosquitos, pulgas, garrapatas y otros 
+                                 insectos. Fácil de aplicar y seguro para todas las edades y razas, este repelente orgánico mantendrá a tu mascota cómoda y libre de molestias mientras disfrutan de actividades 
+                                 al aire libre. </p>
+
+                           <h6>Ingredientes:</h6>
+                            <ul class="list-unstyled">
+                                <li>Citronela</li>
+                                <li>Neem</li>
+                                <li>Eucalipto</li>
+                            </ul>
+                            
+                            <h6>Envase: </h6> 
+                            <p>Plástico</p>
+                            <h6>Contenido:</h6> 
+                            <p>100ml</p>
+
+                            
+                            <center>
+                            <form action="" method="GET">
+                                <input type="hidden" name="product-title" value="Activewear">
+                                
+
+                                    <div class="col-auto" id="cantidad">
+                                        <ul class="list-inline pb-3">
+                                            <p>Cantidad</p>
+                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
+                                            <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
+                                        </ul>
+                                    </div>
+                                
+
+                                <div class="row pb-3" id="carrito">
+                                    <div class="col d-grid">
+                                        <a href="formulario_pago.html" type="submit" class="btn btn-light boton" name="submit" value="buy">Comprar</a>
+                                    </div>
+                                    <div class="col d-grid">
+                                        <a href="carrito.html" type="submit" class="btn btn-light boton" name="submit" value="addtocard">Añadir al carrito</a>
+   
+                                    </div>
+
+                                    
+
+                                </div>
+
+
+                            </form>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div>
+            <a href="catalogo.html" class="btn btn-light boton" id="b_atras">
+                <i class="bi bi-arrow-left-circle-fill"> </i>Catálogo
+            </a>
+            
+        </div>
+    </section>
+
+
+   <!-- Sección de contacto -->
+   <section id="contacto">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Eco Pets</h2>
+            <ul class="list-unstyled">
+                
+                <li><i class="bi bi-telephone-fill"></i><strong>   555-123-4567</strong> </li>
+                <li><i class="bi bi-envelope-fill"></i><strong>   ecopets@gmail.com</strong> </li>
+                <li><i class="bi bi-geo-alt-fill"></i><strong>   Trujillo, La Libertad</strong> </li>
+
+            </ul>
+        </div>
+
+        <div class="icon-container col-md-6">
+
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-tiktok"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-twitter"></i>
+            </a>
+                
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Eco Pets. Todos los derechos reservados.</p>
+    </footer>
+
+</div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

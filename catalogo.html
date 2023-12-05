@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Eco Pets</title>
+
+</head>
+<body>
+<div class="container-fluid">
+
+  <!-- Header Navbar-->
+  <nav class="navbar navbar-expand-lg" style="background-color: #49be49;">
+    <a class="navbar-brand" href="diseño.html">
+        <img src="img/logo.png" alt="Logo de la empresa" style="height: 80px;"> Eco Pets
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="align-self-center collapse navbar-collapse d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+        <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto ml-auto text-right">
+            <li class="nav-item">
+                <a class="nav-link" href="snosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="catalogo.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </div>
+    <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
+        <i class="bi bi-bag-dash-fill"></i>
+    </a>
+    
+    </nav>
+
+
+    <header></header>
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" id="bc">
+        <li class="breadcrumb-item"><a href="diseño.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Productos</li>
+        </ol>
+    </nav>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <div class="product-header">
+          <h3 class="productos-title titulo">CATÁLOGO</h3>
+          <div class="product-sort">
+            <label for="sort">Ordenar por:</label>
+            <select id="sort">
+              <option value="#">-</option>
+              <option value="mayor">Mayor precio</option>
+              <option value="menor">Menor precio</option>
+            </select>
+          </div>
+        </div>
+        
+    <!-- Nuevo menú desplegable para categorías -->
+<div class="product-sort">
+    <label for="category">Filtrar por categoría:</label>
+    <select id="category">
+      <option value="todos">Todos</option>
+      <option value="alimento">Alimento</option>
+      <option value="aseo">Aseo</option>
+      <option value="juguetes">Juguetes y Accesorios</option>
+    </select>
+  </div>
+  
+        <div class="product-container">
+            <div class="product" data-precio="11.99" data-categoria="aseo">
+                <img src="img/jabon.jpg" alt="Jabón para mascotas" class="img-fluid imagen" >
+                <h3>Jabón de coco</h3>
+                <p>Jabón suave y natural para la piel sensible de tu mascota.</p>
+                <p><strong>S/11.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="14.99" data-categoria="aseo">
+                <img src="img/champu.jpg" alt="Champú para mascotas" class="img-fluid imagen">
+                <h3>Champú de almendras</h3>
+                <p>Champú natural que limpia y nutre el pelaje de tu mascota.</p>
+                <p><strong>S/14.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a> 
+            </div>
+            <div class="product" data-precio="19.99" data-categoria="aseo">
+                <img src="img/repelente.png" alt="Repelente orgánico" class="img-fluid imagen" >
+                <h3>Repelente orgánico</h3>
+                <p>Repelente natural que protege a tu mascota de los insectos.</p>
+                <p><strong>S/19.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="23.99" data-categoria="aseo">
+                <img src="img/bolsa.jpg" alt="Bolda biodegradable" class="img-fluid imagen" >
+                <h3>Bolsa biodegradable</h3>
+                <p>Respetuosa con el medio ambiente, se degrada en poco tiempo.</p>
+                <p><strong>S/23.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="15.99" data-categoria="juguetes">
+                <img src="img/hueso.jpg" alt="Hueso biodegradable" class="img-fluid imagen">
+                <h3>Hueso biodegradable</h3>
+                <p>Juguete ecológico hecho de materiales biodegradables y resistentes.</p>
+                <p><strong>S/15.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="10.99" data-categoria="juguetes">
+                <img src="img/almohadilla.jpg" alt="Almohadilla monouso" class="img-fluid imagen" >
+                <h3>Almohadilla monouso</h3>
+                <p>Hecha con materiales sostenibles y amigables con el medio ambiente.</p>
+                <p><strong>S/10.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="16.99" data-categoria="juguetes">
+                <img src="img/peluche.jpg" alt="Peluche orgánico" class="img-fluid imagen">
+                <h3>Peluche orgánico</h3>
+                <p>Juguete hecho a base de algodón orgánico y fibra de maíz.</p>
+                <p><strong>S/16.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="21.99" data-categoria="aseo">
+                <img src="img/cajadearena.jpg" alt="Caja de arena" class="img-fluid imagen" >
+                <h3>Caja de arena</h3>
+                <p>Opción natural para la higiene del gato, hecha con materiales orgánicos</p>
+                <p><strong>S/21.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="20.99" data-categoria="alimento">
+                <img src="img/croquetas.jpg" alt="Croquetas orgánicas" class="img-fluid imagen" >
+                <h3>Croquetas orgánicas</h3>
+                <p>Se pueden descomponer naturalmente reduciendo la huella ecológica.</p>
+                <p><strong>S/20.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            <div class="product" data-precio="16.99" data-categoria="juguetes">
+                <img src="img/collar.jpg" alt="Collar reciclado" class="img-fluid imagen">
+                <h3>Collar reciclado</h3>
+                <p>Accesorios sostenibles y duraderos para mascotas.</p>
+                <p><strong>S/16.99</strong></p>
+                <a href="ver_producto.html" class="buy-btn">Ver producto</a>
+            </div>
+            
+        </div>
+        
+        <h2>PARA TU MASCOTA, LO MEJOR.</h2>
+    </section>
+
+   <!-- Sección de contacto -->
+   <section id="contacto">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Eco Pets</h2>
+            <ul class="list-unstyled">
+                
+                <li><i class="bi bi-telephone-fill"></i><strong>   555-123-4567</strong> </li>
+                <li><i class="bi bi-envelope-fill"></i><strong>   ecopets@gmail.com</strong> </li>
+                <li><i class="bi bi-geo-alt-fill"></i><strong>   Trujillo, La Libertad</strong> </li>
+
+            </ul>
+        </div>
+
+        <div class="icon-container col-md-6">
+
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-tiktok"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+                <i class="bi bi-twitter"></i>
+            </a>
+                
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Eco Pets. Todos los derechos reservados.</p>
+    </footer>
+
+</div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    // Función para filtrar productos por categoría
+    function filtrarPorCategoria() {
+      var seleccion = document.getElementById("category").value;
+      var productos = document.querySelectorAll(".product");
+  
+      productos.forEach(function(producto) {
+        var categoriaProducto = producto.getAttribute("data-categoria");
+  
+        if (seleccion === "todos" || seleccion === categoriaProducto) {
+          producto.style.display = "block";
+        } else {
+          producto.style.display = "none";
+        }
+      });
+    }
+  
+    // Evento para detectar cambios en la selección de categoría
+    document.getElementById("category").addEventListener("change", filtrarPorCategoria);
+  </script>
+  
+</html>
+
+
